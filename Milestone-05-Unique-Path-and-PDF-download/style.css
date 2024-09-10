@@ -1,0 +1,92 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f0f4f8;
+}
+
+h1{
+    text-align: center;
+    color: #547594;
+}
+
+form{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f0f4f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+fieldset{
+    border: 2px solid #89b1c0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(214, 224, 233);  
+}
+
+legend{
+    font-weight: bold;
+    text-align: left;
+    color: #202a35
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    color: #202a35;
+}
+
+input,textarea{
+    width: calc(100% - 1px);
+    padding: 7px;
+    margin: 4px;
+    border: 1px solid #7fb5c9;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    color: black;
+    background-color: #a1bfda;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;    
+}
+
+button:hover{
+    background-color: #547594;
+}
+
+#resumeOutput{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #3f839c;
+    border-radius: 8px;
+    background-color: rgb(193, 217, 238);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#resumeOutput h2{
+    color: #2c3e50;
+}
+
+.profilePicture{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #a1bfda;
+    box-shadow: 0 4px 8px rgba(11, 7, 211, 0.5);
+    border-radius: 500%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
